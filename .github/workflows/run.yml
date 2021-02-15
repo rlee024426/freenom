@@ -12,14 +12,14 @@
 #
 ######  end 说明  ######
 
-name: Run it on action
+name: freenomauto
 
 on:
   push:
     branches:
       - master
   schedule:
-    - cron: 00 02 * * *
+    - cron: 00 09 * * *
 jobs:
   run-it:
     runs-on: ubuntu-18.04
